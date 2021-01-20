@@ -1,0 +1,374 @@
+/*=========== BASIC ===========*/
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button:focus,
+input:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+/*===========================*/
+/*=== START REUSEBLE COMPONENTS ===*/
+
+.col-mb-xl {
+	margin-bottom: 3rem;
+}
+
+.custom-row {
+	margin-bottom: 9rem;
+}
+
+p.paragraph_m {
+	margin: 3rem 0 5rem;
+}
+
+.big-title,
+.medium-title,
+.little-title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	color: #003167;
+}
+
+.big-title {
+	font-size: 4rem;
+}
+
+.medium-title {
+	font-size: 3rem;
+}
+
+.little-title {
+	font-size: 2.1rem;
+	color: #333333;
+}
+
+p.paragraph,
+.footer-content ul li a {
+	font-weight: 400;
+	font-size: 1.6rem;
+	color: #666666;
+	line-height: 2.6rem;
+}
+
+a.all-btn {
+	padding: 1.3rem 2rem;
+	font-size: 1.8rem;
+	background: #ffb507;
+	word-spacing: .5rem;
+}
+
+.features-title p,
+.work-title p {
+	width: 54%;
+}
+
+/*=== END REUSEBLE COMPONENTS ===*/
+/*===========================*/
+
+/*=============== START HEADER SECTION ===============*/
+/* MENU */
+a.logo img {
+	max-width: 70% !important;
+}
+
+.menu ul li {
+	margin-right: 3.2rem;
+}
+
+.menu ul li a {
+	font-size: 1.6rem;
+	position: relative;
+	color: #666;
+	padding: 0 !important;
+}
+
+.menu ul li:first-child a {
+	color: #ffb507 !important;
+}
+
+.menu ul li a::after,
+.menu ul li:first-child a::after {
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: .2rem;
+	background: #ffb507;
+	top: 150%;
+	left: 0;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+}
+
+.menu ul li a:hover::after {
+	width: 100%;
+}
+
+.menu ul li:first-child a::after {
+	width: 100%;
+}
+
+.menu .login a {
+	font-size: 1.6rem;
+	padding: .6rem 3.5rem;
+	color: #666;
+	border: .1rem solid #666;
+}
+
+/* STICKY MENU */
+.sticky-menu {
+	padding-top: 1.3rem !important;
+	padding-bottom: 1.3rem !important;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+	z-index: 9999999;
+}
+
+/* HEADER TEXT */
+.header-text {
+	margin: 8rem auto 8.5rem;
+	width: 69%;
+}
+
+.header-text h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 6.5rem;
+	color: #003167;
+}
+
+.header-text p {
+	margin: 2rem 0 5.5rem;
+}
+
+.header-text a.btn-2 {
+	margin-left: 3rem;
+	padding: 1.2rem 4.4rem;
+	color: #666666;
+	background: none;
+	border: .1rem solid #666;
+}
+
+/*=============== END HEADER SECTION ===============*/
+
+/*=============== START THREE-COL SECTION ===============*/
+.three-col-section {
+	padding: 10rem 0 8.5rem;
+}
+
+.content h4 {
+	margin: 6rem 0 2.5rem;
+}
+
+.content h4.transfer-title {
+	margin-top: 4.7rem;
+}
+
+.content p {
+	padding: 0 6.5rem;
+}
+
+/*=============== END THREE-COL SECTION ===============*/
+
+/*=============== START PAYMENT SECTION ===============*/
+.payment-section .container-bg {
+	background: url("../images/banner2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5rem 1.5rem;
+	border-radius: 2rem;
+}
+
+.payment-content {
+	margin-top: 3rem;
+	padding-left: 8rem;
+}
+
+.payment-content p {
+	margin: 1.5rem 0 5rem;
+}
+
+/*=============== END PAYMENT SECTION ===============*/
+
+/*=============== START PROVIDE-FEATURES SECTION ===============*/
+.provide-features {
+	padding: 9rem 0;
+}
+
+.features-content h4 {
+	margin: 2.2rem auto 2rem;
+}
+
+.features-content p {
+	color: #333333;
+}
+
+/*=============== END PROVIDE-FEATURES SECTION ===============*/
+
+/*=============== START EASY-SHOPPING SECTION ===============*/
+
+.easy-shopping {
+	padding: 5rem 0 11rem;
+}
+
+/*=============== END EASY-SHOPPING SECTION ===============*/
+
+/*=============== START WORKING-PROCESS SECTION ===============*/
+
+.working-process {
+	padding: 9.5rem 0 10.5rem;
+}
+
+.row-bg {
+	padding: 10rem 0;
+	background: #f4f4f4;
+	border-radius: 4rem .3rem 4rem .3rem;
+}
+
+.work-content h4 {
+	margin: 3rem 0;
+}
+
+.work-content span {
+	position: relative;
+	width: 3.5rem;
+	height: 3.5rem;
+	background: #ffb507;
+	line-height: 3.5rem;
+	font-size: 1.6rem;
+}
+
+.work-content span.number-1::after,
+.work-content span.number-2::after,
+.work-content span.number-3::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 115%;
+	width: 24rem;
+	border-bottom: .1em dotted #a2a2a2;
+}
+
+/*=============== END WORKING-PROCESS SECTION ===============*/
+
+/*=============== START OUR-APPS SECTION ===============*/
+
+.apps-text span {
+	font-size: 1.6rem;
+	color: #05cab6;
+}
+
+.apps-text p {
+	color: #0d293b;
+}
+
+.apps-link {
+	margin-top: 5rem;
+}
+
+.apps-link a {
+	padding: 0 20px;
+	font-weight: 600;
+	font-size: 2rem;
+	display: inline-block;
+	max-width: 200px;
+	height: 6rem;
+	word-spacing: .5rem;
+	line-height: 6rem;
+}
+
+.apps-link a img {
+	width: 2.5rem;
+}
+
+.apps-link a:first-child {
+	background: #ffb507;
+}
+
+.apps-link a:last-child {
+	color: #666666;
+	margin-left: 3rem;
+	border: .1rem solid #666;
+
+}
+
+/*=============== END OUR-APPS SECTION ===============
+
+/*=============== START FOOTER SECTION ===============*/
+
+footer {
+	padding-top: 11rem;
+}
+
+.footer-link {
+	padding-left: 7rem;
+}
+
+.footer-content img {
+	max-width: 60% !important;
+}
+
+.footer-content ul li a {
+	word-spacing: .3rem;
+}
+
+.social-link ul li a {
+	color: #666;
+	font-size: 1.6rem;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.social-link ul li a:hover {
+	color: #ffb507;
+}
+
+.copyright {
+	padding: 3rem 0 2rem;
+}
+
+.copyright p {
+	word-spacing: .4rem;
+}
+
+.copyright p span {
+	color: #05cab6;
+	font-weight: 600;
+}
+
+/*=============== END FOOTER SECTION ===============*/
+
+/*=== SCROLL-UP-BTN ===*/
+a.scroll-up-btn {
+	display: none;
+	width: 35px;
+	height: 35px;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	background: #003167;
+	color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+}

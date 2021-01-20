@@ -1,0 +1,305 @@
+@media (min-width: 1200px) {}
+
+@media (max-width: 1199px) {
+
+	/* REUSEBLE COMPONENTS */
+	/* COLUMN MARGIN-BOTTOM */
+	.col-mb-lg {
+		margin-bottom: 3rem;
+	}
+
+	/* HEADER SECTION */
+	.header-text {
+		width: 78%;
+	}
+
+	/* THREE-COL SECTION */
+	.content p {
+		padding: 0 5rem;
+	}
+
+	/* PAYMENT SECTION */
+	.payment-content {
+		margin-top: 0rem;
+	}
+
+	/* PROVIDE-FEATURES */
+	.features-content h4.f_title {
+		width: 49%;
+	}
+
+	/* ORKING-PROCESS */
+	.work-content span.number-1::after,
+	.work-content span.number-2::after,
+	.work-content span.number-3::after {
+		width: 19.5rem;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	/* REUSEBLE COMPONENTS */
+	/* COLUMN MARGIN-BOTTOM */
+	.col-mb-md {
+		margin-bottom: 3rem;
+	}
+
+	.features-title p,
+	.work-title p {
+		width: 77%;
+	}
+
+	/* HEADER-SECTION */
+	/* MENU */
+	.menu {
+		padding: 4rem 0;
+		margin-top: 10px;
+		background: #003167;
+		/*
+		position: absolute !important;
+		top: 100%;
+		left: 0;
+		width: 100%;
+*/
+	}
+
+	.menu ul li a {
+		color: #fff !important;
+	}
+
+	.menu ul li a::after {
+		background: none !important;
+	}
+
+	.menu .login a {
+		color: #fff;
+		border: .1rem solid #fff;
+	}
+
+	.header-text {
+		width: 83%;
+	}
+
+	/* THREE-COL SECTION */
+	.content p {
+		padding: 0;
+	}
+
+	/* PAYMENT SECTION */
+	.payment-content {
+		margin-bottom: 7rem;
+		padding-left: 5rem;
+	}
+
+	/* PROVIDE-FEATURES */
+	.features-content h4.f_title {
+		width: 100%;
+	}
+
+	.features-content h4.ff_title {
+		width: 64%;
+	}
+
+	/* CARD-ORDER & EASY-SHOPPING */
+	.card-img img {
+		margin-top: 6rem;
+	}
+
+	/* EASY-SHOPPING */
+	.easy-shopping {
+		padding-top: 10rem;
+	}
+
+	/* ORKING-PROCESS */
+	.work-content span.number-2::after {
+		width: 0;
+	}
+
+	.work-content span.number-1::after,
+	.work-content span.number-3::after {
+		width: 31.5rem;
+	}
+
+	/* FOOTER */
+	.footer-link {
+		padding-left: 0rem;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	/* REUSEBLE COMPONENTS */
+	/* COLUMN MARGIN-BOTTOM */
+
+	.custom-row {
+		margin-bottom: 5rem;
+	}
+
+	.col-mb-sm {
+		margin-bottom: 3rem;
+	}
+
+	.big-title {
+		font-size: 3.5rem;
+	}
+
+	.features-title p,
+	.work-title p {
+		width: 100%;
+	}
+
+	/* HEADER SECTION */
+	.header-text {
+		width: 100%;
+	}
+
+	.header-text h1 {
+		font-size: 4.6rem;
+	}
+
+	/* THREE-COL SECTION */
+	.three-col-section {
+		padding: 7rem 0 6rem;
+	}
+
+	.content h4 {
+		margin: 3rem 0 1.5rem !important;
+	}
+
+	/* PROVIDE-FEATURES */
+	.features-content h4.f_title,
+	.features-content h4.ff_title {
+		width: 100%;
+	}
+
+	/* PROVIDE-FEATURES */
+	.provide-features {
+		padding: 6rem 0;
+	}
+
+	/* EASY-SHOPPING */
+	.easy-shopping {
+		padding: 7.5rem 0 8.5rem;
+	}
+
+	/* ORKING-PROCESS */
+	.working-process {
+		padding: 7.5rem 0 6.5rem;
+	}
+
+	.work-content span.number-1::after,
+	.work-content span.number-3::after {
+		width: 22.5rem;
+	}
+
+	/* FOOTER */
+	footer {
+		padding-top: 7.5rem;
+	}
+
+	.link {
+		padding-left: 11rem;
+	}
+}
+
+@media (max-width: 575px) {
+
+	/* REUSEBLE COMPONENTS */
+	.col-mb-col-device {
+		margin-bottom: 3rem;
+	}
+
+	.custom-row {
+		margin-bottom: 4rem;
+	}
+
+	.big-title {
+		font-size: 2.8rem;
+	}
+
+	.medium-title {
+		font-size: 2.2rem;
+	}
+
+	.little-title {
+		font-size: 1.9rem;
+	}
+
+	p.paragraph {
+		font-size: 1.5rem;
+	}
+
+	a.all-btn {
+		font-size: 1.6rem;
+	}
+
+	/* HEADER SECTION */
+	.header-text {
+		margin: 4rem 0 5rem;
+	}
+
+	.header-text h1 {
+		font-size: 3.6rem;
+	}
+
+	.header-text p {
+		margin: 1rem 0 3rem;
+	}
+
+	.header-text a {
+		display: table;
+		margin: auto;
+	}
+
+	.header-text a.btn-2 {
+		padding: 1.2rem 4.2rem;
+		margin: 1.5rem auto 0;
+	}
+
+	/* PAYMENT SECTION */
+	.payment-section .container-bg {
+		border-radius: 0rem;
+	}
+	.payment-content {
+		padding-left: 0rem;
+	}
+
+	/* ORKING-PROCESS */
+	.work-content span.number-1::after,
+	.work-content span.number-3::after {
+		width: 0;
+	}
+
+	/* OUR-APPS */
+	.apps-link {
+		margin-top: 3rem;
+	}
+
+	.apps-link a {
+		display: table;
+		font-size: 1.8rem;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	.apps-link a:last-child {
+		margin: 0;
+	}
+
+	.apps-link a img {
+		width: 2rem;
+	}
+
+	/* FOOTER */
+	.link {
+		padding-left: 0rem;
+	}
+}
+
+@media (max-width: 434px) {
+	.header-text h1 {
+		font-size: 2.6rem;
+	}
+}
